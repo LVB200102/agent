@@ -51,32 +51,58 @@ position: absolute;
   margin-top: 0.5em;
 }
 
-@media screen and (max-width:650px)
+@media screen and (max-width:600px)
 {
   .motorcycles .headline{
     width:100%;
     font-size: 1rem;
     position: relative;
     left: 0rem;
+    text-align: left;
+    height: 2.3rem;
+    align-items: baseline;
   }
   .motorcycles h1{
     font-size: 1.25rem;
+    padding-right: 30px;
+  }
+  .menu, .rednav{
+    height:1rem;
   }
 }
-.rednav{
+.rednav, .menu{
   background-color: firebrick;
   color: white;
   width:100%;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   display: flex;
   height: 3rem;
   justify-content: center;
   overflow: hidden;
+  margin: 0 auto;
 }
-.rednav ul li{
+.rednav ul li, .menu ul li{
   display: inline-flex;
   justify-content: space-between;
   max-width: 960px;
   margin: auto 0;
   min-width: 180px;
+  padding: 0.75rem 0em;
   }
+.menu {
+display: none;
+}
+@media only screen and (max-width:1000px)
+ {
+  .menu{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .rednav{
+    display: none;
+  }
+  .motorcycles .headline{
+
+  }
+}
