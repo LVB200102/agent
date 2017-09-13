@@ -61,6 +61,7 @@ position: absolute;
     text-align: left;
     height: 2.3rem;
     align-items: baseline;
+    margin-top: 140px;
   }
   .motorcycles h1{
     font-size: 1.25rem;
@@ -102,7 +103,5 @@ display: none;
   .rednav{
     display: none;
   }
-  .motorcycles .headline{
 
-  }
 }
