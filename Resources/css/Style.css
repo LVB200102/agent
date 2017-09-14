@@ -114,20 +114,30 @@ display: none;
   width: 100%;
   margin: 50px 45px;
   color: white;
+  max-width: 960px;
 }
 .images img{
   width: 130px;
   height: 9em;
   margin:15px 10px;
+  max-width: 8rem;
+  padding: 2em 0em;
+
 }
 .images span{
   height: 220px;
   width: 240px;
 background-color: white;
-display: inline-flex;
-justify-content: center;
+justify-content: space-between;
+}
+.container{
+  background-color: white;
 }
 
-.images #glasses {
-  margin-right: 160px;
+.container p{
+  background-color: black;
+text-align: center;
+font-size: 1.05rem;
+padding-top: 10px;
+height: 2.1rem;
 }
