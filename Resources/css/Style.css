@@ -122,16 +122,20 @@ display: none;
   margin:15px 10px;
   max-width: 8rem;
   padding: 2em 0em;
+  margin-left: 50px;
 
 }
 .images span{
-  height: 220px;
   width: 240px;
 background-color: white;
 justify-content: space-between;
 }
 .container{
   background-color: white;
+}
+.container span{
+  border: black 4px solid;
+  width:230px;
 }
 
 .container p{
