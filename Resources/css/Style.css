@@ -1,5 +1,5 @@
 html{
-
+background-color: white;
   font-family: Helvetica;
 }
 
@@ -113,8 +113,19 @@ display: none;
   overflow: scroll;
   width: 100%;
   margin: 50px 45px;
+  background-color: white;
 }
 .images img{
-  width: 30%;
+  width: 130px;
   height: 9em;
+  margin:15px 10px;
+}
+.images span{
+  height: 220px;
+  width: 240px;
+background-color: white;
+}
+
+.images #glasses {
+  margin-right: 160px;
 }
