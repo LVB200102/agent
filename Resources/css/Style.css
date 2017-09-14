@@ -61,8 +61,7 @@ position: absolute;
     text-align: left;
     height: 2.3rem;
     align-items: baseline;
-    margin-top: 140px;
-  }
+}
   .motorcycles h1{
     font-size: 1.25rem;
     padding-right: 30px;
@@ -70,7 +69,11 @@ position: absolute;
   .menu, .rednav{
     height:1rem;
   }
+  .motorcycles{
+    height:14rem;
+  }
 }
+
 .rednav, .menu{
   background-color: firebrick;
   color: white;
@@ -103,5 +106,15 @@ display: none;
   .rednav{
     display: none;
   }
-
+}
+.images{
+  display: inline-flex;
+  justify-content: space-between;
+  overflow: scroll;
+  width: 100%;
+  margin: 50px 45px;
+}
+.images img{
+  width: 30%;
+  height: 9em;
 }
