@@ -1,5 +1,4 @@
 html{
-background-color: white;
   font-family: Helvetica;
 }
 
@@ -93,6 +92,9 @@ position: absolute;
   min-width: 180px;
   padding: 0.75rem 0em;
   }
+  .rednav .eye{
+    margin-left: 15px;
+  }
 .menu {
 display: none;
 }
@@ -114,7 +116,7 @@ display: none;
   width: 100%;
   margin: 50px 0px 50px 45px;
   color: white;
-  max-width: 960px;
+  max-width: 900px;
 }
 .images img{
   width: 130px;
@@ -125,22 +127,40 @@ display: none;
   margin-left: 50px;
 }
 .images span{
-  width: 240px;
+  height:auto;
+  width: 260px;
 background-color: white;
 justify-content: space-between;
 }
-.container{
-  background-color: white;
-}
-.container span{
+
+.container2{
   border: black 4px solid;
-  width:230px;
+  width: 30%;
 }
 
-.container p{
+.container2 p{
   background-color: black;
 text-align: center;
 font-size: 1.05rem;
 padding-top: 10px;
 height: 2.1rem;
+}
+@media only screen and (max-width: 800px){
+  .container2 .glass{
+    display: none;
+    border: white 1px;
+  }
+  .container2{
+    width: 70%;
+    display: block;
+    justify-content: space-between;
+  }
+  .container2{
+    border: none;
+  }
+  span #watch, span #pen {
+    border: 4px black solid;
+  }
+  }
+
 }
